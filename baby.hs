@@ -35,3 +35,5 @@ myInit (x:xs) = x:myInit(xs)
 myReverse :: [a]->[a]
 myReverse [] = []
 myReverse xs = myLast(xs):myReverse (myInit xs)
+
+test things 
